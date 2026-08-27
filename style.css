@@ -1,6 +1,6 @@
 body{
   background-color: seashell;
-  color: maroon;
+  color: rgb(40, 19, 126);
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -18,23 +18,24 @@ p{
 img{
   margin-top: 20px;
   max-width: 80%;
+  ;
    }
 a{
   text-decoration: none;
-  color: maroon;
+  color: rgb(250, 120, 187);
   text-align: center;
 }
 a:hover{
-  color: blue;
+  color: rgb(255, 255, 255);
 }
 body.modo_escuro {
-  background-color: black;
-  color: seashell;
+  background-color: rgb(223, 126, 255);
+  color: rgb(0, 0, 0);
 }
 
 
 button {
-  border: 2px solid green;
+  border: 2px solid rgb(98, 106, 223);
   border-radius: 20px;
   width: 80px;
   position: fixed;
